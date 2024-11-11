@@ -77,4 +77,3 @@ Para cualquier pregunta o comentario sobre el proyecto, puedes contactarme en [f
 ---
 
 Este proyecto fue desarrollado como parte de una práctica para aprender y aplicar HTML5 y CSS. La claridad en la organización del código y la escalabilidad del diseño fueron fundamentales en este desarrollo. ¡Gracias por revisar mi trabajo!
-```
