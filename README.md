@@ -12,10 +12,10 @@ Para el diseño visual de la página, he usado la siguiente paleta de colores:
 - **Negro** y **Blanco** para texto y fondos
 
 ## Estructura del Proyecto
-El proyecto se organiza en una carpeta con el nombre `[ApellidoNombre]`, que contiene todo el código fuente y los recursos del proyecto. A continuación, se detalla la estructura de carpetas y archivos.
+El proyecto se organiza en una carpeta con el nombre `[FernandezFrancisco]`, que contiene todo el código fuente y los recursos del proyecto. A continuación, se detalla la estructura de carpetas y archivos.
 
 ```
-ApellidoNombre/
+FernandezFrancisco/
 ├── index.html                # Página principal de la web
 ├── peliculas.html            # Listado de películas y series
 ├── contacto.html             # Página de contacto y encuesta
@@ -27,7 +27,7 @@ ApellidoNombre/
 │   │   └── (imágenes del proyecto)
 │   └── (otros recursos)
 ├── README.md                 # Instrucciones detalladas del proyecto
-└── ApellidoNombre_Retro.pdf  # Documento PDF con retrospectiva del proyecto
+└── FernandezFrancisco_Retro.pdf  # Documento PDF con retrospectiva del proyecto
 ```
 
 ## Instrucciones de Instalación
