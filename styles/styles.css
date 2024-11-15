@@ -9,6 +9,7 @@ html,
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 14px;
+  background-color: black;
 }
 
 /* Settings of Video */
@@ -174,4 +175,107 @@ video {
 .btn--secondary:hover {
   background-color: #ffffff;
   transform: translateY(-2px);
+}
+
+/* Movies Section -> Films */
+.movies-section {
+  width: 100%;
+  padding: 40px 0;
+  color: white;
+}
+
+.movies-wrapper {
+  width: calc(100% - 60px);
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.movies-title {
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.movies-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+  width: 100%;
+}
+
+.movie-card {
+  position: relative;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.movie-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #c24242;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  z-index: 2;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.movie-poster-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2/3;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.movie-poster {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.movie-card:hover .movie-poster {
+  transform: scale(1.1);
+}
+
+.movie-name {
+  font-size: 16px;
+  margin-top: 12px;
+  font-weight: 500;
+  text-align: center;
+  padding: 0 10px;
+}
+
+/* Overlay effect on hover */
+.movie-poster-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.movie-card:hover .movie-poster-wrapper::after {
+  opacity: 1;
 }
