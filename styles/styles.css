@@ -244,7 +244,7 @@ video {
   padding: 0 10px;
 }
 
-/* actors Section */
+/* Actors Section */
 .actors-section {
   width: 100%;
   padding: 40px 0;
@@ -266,39 +266,107 @@ video {
 }
 
 .actors-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 25px;
-    width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+  width: 100%;
 }
 
 .actor-card {
-    position: relative;
-    transition: all 0.3s ease;
-    border-radius: 8px;
-    overflow: hidden;
-    cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .actor-photo {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    object-position: top;
-    margin: 0 auto;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+  margin: 0 auto;
 }
 
 .actor-name {
-    font-size: 16px;
-    margin-top:12px;
-    font-weight: 500;
-    text-align: center;
-    padding: 0 10px;
+  font-size: 16px;
+  margin-top: 12px;
+  font-weight: 500;
+  text-align: center;
+  padding: 0 10px;
 }
 
 .actor-rating {
-    margin-top: 10px;
-    text-align: center;
-    padding: 0 10px;
+  margin-top: 10px;
+  text-align: center;
+  padding: 0 10px;
+}
+
+/* Festivals series */
+.festival-series {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Deja una columna para los festivales y otra para las series */
+  grid-template-rows: auto;
+  gap: 20px;
+  color: white;
+  width: calc(100% - 60px);
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+/* Festival styles */
+.festival {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.festival-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.festival-poster img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Series styles */
+.series {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  cursor: pointer;
+  gap: 20px;
+}
+
+.series-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.series-poster {
+  position: relative;
+}
+
+.series-poster img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  border-radius: 8px;
+}
+
+.serie-name {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 18px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
