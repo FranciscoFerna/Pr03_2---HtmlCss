@@ -261,3 +261,10 @@ Usé CSS para lograr un diseño atractivo y funcional:
 - **Sección Inferior del Footer:**
   - Fondo oscuro con texto centrado que incluye derechos de autor y marcas registradas.
   - Contraste adecuado entre el texto y el fondo para garantizar la legibilidad.
+
+
+Este proyecto refleja mi enfoque en crear un diseño claro, atractivo e intuitivo. Cada sección está estructurada para facilitar la navegación.
+
+He priorizado la interactividad y el impacto visual mediante efectos hover, gradientes y estilos modernos. El uso de cuadrículas asegura orden y profesionalismo, mientras que los detalles, como calificaciones y elementos dinámicos, enriquecen la experiencia del usuario.
+
+En conjunto, el proyecto demuestra un equilibrio entre funcionalidad y estética, cumpliendo con los objetivos planteados.
