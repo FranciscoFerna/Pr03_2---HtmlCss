@@ -31,6 +31,7 @@ header {
   margin: 0 30px;
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
 }
 
 header .left-section,
@@ -59,7 +60,7 @@ header ul {
 }
 
 .item-menu a:hover {
-  color: #c24242; 
+  color: #c24242;
 }
 
 video {
@@ -257,25 +258,4 @@ video {
   font-weight: 500;
   text-align: center;
   padding: 0 10px;
-}
-
-/* Overlay effect on hover */
-.movie-poster-wrapper::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0.2) 100%
-  );
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.movie-card:hover .movie-poster-wrapper::after {
-  opacity: 1;
 }
