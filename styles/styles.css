@@ -271,3 +271,34 @@ video {
     gap: 25px;
     width: 100%;
 }
+
+.actor-card {
+    position: relative;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.actor-photo {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    margin: 0 auto;
+}
+
+.actor-name {
+    font-size: 16px;
+    margin-top:12px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.actor-rating {
+    margin-top: 10px;
+    text-align: center;
+    padding: 0 10px;
+}
