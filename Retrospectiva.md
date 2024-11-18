@@ -213,3 +213,51 @@ Usé CSS para lograr un diseño atractivo y funcional:
   - Sombras y escalado al pasar el cursor.
   - Transiciones suaves para atraer al usuario.
 - **Organización Visual:** Uso estratégico de colores y degradados para jerarquizar la información.
+
+### **Footer**
+
+#### **1. Estructura del Footer**
+- **Secciones Informativas:** 
+  - Organizado en varias áreas funcionales (`footer-section`), cada una con un propósito específico:
+    - **Empresa:** Información general y enlaces a redes sociales.
+    - **Ayuda y Soporte:** Recursos útiles para usuarios, como preguntas frecuentes y opciones de contacto.
+    - **Aspectos Legales:** Documentos y políticas clave como términos de uso y política de privacidad.
+    - **Compañía:** Datos corporativos y enlaces relacionados con oportunidades laborales, inversores y más.
+- **Redes Sociales:**
+  - Iconos interactivos que enlazan a plataformas sociales, integrados dentro de la sección de empresa para facilitar la interacción.
+
+---
+
+#### **2. Contenido de las Secciones**
+- **Info de la Compañía:**
+  - **Logo:** Refleja la identidad visual de *ITBFlix*, aportando reconocimiento de marca.
+  - **Descripción:** Breve texto que comunica la misión o valores principales de la empresa.
+  - **Enlaces Sociales:** Iconos de redes sociales como Facebook, Twitter, e Instagram, para fomentar la conexión con los usuarios.
+  
+- **Ayuda y Soporte:**
+  - **Centro de Recursos:** Enlaces a FAQ, contacto, y administración de cuenta para una experiencia centrada en el usuario.
+  
+- **Legal:**
+  - **Políticas y Avisos:** Incluye enlaces a términos de uso, política de privacidad, cookies, aviso legal, y ajustes de preferencias.
+  
+- **Compañía:**
+  - **Información Corporativa:** Sección sobre oportunidades laborales, inversores, sala de prensa y responsabilidad social corporativa.
+
+---
+
+#### **3. CSS del Footer**
+- **Diseño de Cuadrícula:**
+  - Utiliza `grid-template-columns` para dividir las secciones en cuatro columnas, asegurando un diseño estructurado y fácil de navegar.
+  - Espaciado uniforme entre columnas y márgenes bien definidos.
+
+- **Estilización de Enlaces:**
+  - Color base que combina con la paleta de la marca, con efecto `hover` que resalta los enlaces al pasar el ratón.
+  - Tipografía legible y tamaño ajustable para mejorar la accesibilidad.
+
+- **Estilo de Redes Sociales:**
+  - Iconos estilizados con un tamaño uniforme, diseñados para destacar sin ser intrusivos.
+  - Efecto de cambio de color en `hover` que invita a la interacción.
+
+- **Sección Inferior del Footer:**
+  - Fondo oscuro con texto centrado que incluye derechos de autor y marcas registradas.
+  - Contraste adecuado entre el texto y el fondo para garantizar la legibilidad.
