@@ -12,6 +12,7 @@ body {
   font-size: 14px;
   background-color: black;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 /* Header and Navigation */
