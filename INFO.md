@@ -1,4 +1,4 @@
-### Retrospectiva PR03_2-HTML-CSS 
+### Informacion sobre la implementacion de la pagina 
 
 ### Metadatos Básicos  
 En el `<head>`, incluí aspectos fundamentales:  
