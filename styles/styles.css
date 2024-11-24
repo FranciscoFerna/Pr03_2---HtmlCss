@@ -92,7 +92,7 @@ video,
 }
 
 .title {
-  font-size: clamp(3rem, 8vw, 5rem);
+  font-size: clamp(3rem, 8vw, 5rem); /* Escalabilidad */
   font-weight: 700;
   line-height: 1.1;
   margin-bottom: 1rem;
@@ -124,7 +124,7 @@ video,
   font-size: clamp(1rem, 2vw, 2.2rem);
   font-weight: 600;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease; /* Transiciones */
 }
 
 .btn--primary-video {
@@ -386,7 +386,7 @@ video,
   left: 0;
   right: 0;
   padding: 15px;
-  background: linear-gradient(
+  background: linear-gradient( 
     to bottom,
     transparent,
     rgba(0, 0, 0, 0.8) 40%,
