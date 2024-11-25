@@ -81,6 +81,16 @@ Incluido en el archivo **FernandezFrancisco_Retro.pdf**, este documento aborda:
 
 ---
 
+![Captura de pantalla de 2024-11-25 08-09-14](https://github.com/user-attachments/assets/241cbdb3-f3b3-46f3-b04f-b2b20e061646)
+![Captura de pantalla de 2024-11-25 08-09-23](https://github.com/user-attachments/assets/735d4316-6e7e-4de9-bb13-5d60d23375ad)
+![Captura de pantalla de 2024-11-25 08-09-31](https://github.com/user-attachments/assets/a3f1ba36-ab78-4492-8c43-8870087b4873)
+![Captura de pantalla de 2024-11-25 08-09-47](https://github.com/user-attachments/assets/edafdeab-7fd4-428f-9864-8ec32c90a323)
+![Captura de pantalla de 2024-11-25 08-09-57](https://github.com/user-attachments/assets/e93a7699-f885-4b5e-b405-2b369fa51b47)
+![Captura de pantalla de 2024-11-25 08-10-07](https://github.com/user-attachments/assets/0ae368c2-555f-4125-a468-abe903f179bc)
+![Captura de pantalla de 2024-11-25 08-10-13](https://github.com/user-attachments/assets/642b01aa-adc7-4f76-a885-a59660504f45)
+
+
+
 ## 📧 Contacto  
 
 Si tienes alguna sugerencia o encuentras algún problema, no dudes en contactarme.  
